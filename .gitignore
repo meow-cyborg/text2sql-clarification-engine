@@ -1,0 +1,20 @@
+# Environment variables (NEVER COMMIT YOUR KEYS)
+.env
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit config & secrets
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+*.swp
